@@ -9,12 +9,14 @@ export default {
   ],
   theme: {
   	extend: {
+		
 		backgroundImage: {
         'custom-bg': "url('/BG.png')",
       },
   		colors: {
 			HoverGray : `#f2f2f5`,
 			purpButton : '#735cf7',
+			bgColor : '#f7f7f7',
 			purpHover : '#5D3AEA',
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
