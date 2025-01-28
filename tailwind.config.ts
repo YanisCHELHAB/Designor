@@ -14,6 +14,8 @@ export default {
       },
   		colors: {
 			HoverGray : `#f2f2f5`,
+			purpButton : '#735cf7',
+			purpHover : '#5D3AEA',
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
