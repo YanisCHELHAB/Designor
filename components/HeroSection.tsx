@@ -14,10 +14,6 @@ import comp8 from "@/public/companies/svgexport-9.svg";
 
 import { Button } from "@/components/ui/button";
 import { Instrument_Sans } from "next/font/google";
-
-// import { Instrument_Sans } from "next/font/google";
-// import { Button } from "@/components/ui/button"
-// import { motion } from "motion/react"
 const instrument_Sans = Instrument_Sans({
   subsets: ["latin"],
   weight: ["500", "600", "700"],
@@ -37,7 +33,7 @@ const HeroSection = () => {
               <Image
                 src={im1}
                 alt="Image 1"
-                className="w-4 h-4  rounded-full object-cover"
+                className=" w-4 h-4 rounded-full object-cover"
               />
               <Image
                 src={im2}
@@ -80,7 +76,7 @@ const HeroSection = () => {
           </p>
           <div className="overflow-hidden whitespace-nowrap flex  container">
             {/* One container with all images, duplicated virtually */}
-            <div className="flex items-center space-x-16 circular">
+            <div className="flex items-center gap-16 circular">
               <Image src={comp1} alt="user1" width={120} height={120} />
               <Image src={comp2} alt="user1" width={120} height={120} />
               <Image src={comp3} alt="user1" width={120} height={120} />

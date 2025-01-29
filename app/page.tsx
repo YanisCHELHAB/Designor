@@ -1,6 +1,9 @@
+import CaseSection from "@/components/CaseSection";
 import HeroSection from "@/components/HeroSection";
 import NavBar from "@/components/NavBar";
 import ScrollNavBar from "@/components/ScrollNavBar";
+import ServicesSection from "@/components/ServicesSection";
+import WhoWeAre from "@/components/WhoWeAre";
 
 export default function Home() {
   return (
@@ -9,6 +12,8 @@ export default function Home() {
       <ScrollNavBar />
       <HeroSection/>
       <ServicesSection/>
+      <CaseSection/>
+      <WhoWeAre/>
     </>
   );
 }

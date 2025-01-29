@@ -35,7 +35,7 @@ const ScrollNavBar = () => {
           initial={{ y: -50, x: "-50%", opacity: 0 }} // Set the initial position (centered horizontally)
           animate={{ y: 20, x: "-50%", opacity: 1 }} // Animate while maintaining horizontal centering
           transition={{ duration: 0.1 }}
-          className={`fixed top-4 left-1/2 bg-white w-[800px] px-2 rounded-2xl border border-gray-400 py-2 shadow-md transition duration-1000 flex justify-between items-center ${instrument_Sans.className}`}
+          className={`fixed top-4 left-1/2 bg-white z-50 w-[800px] px-2 rounded-2xl border border-gray-400 py-2 shadow-md transition duration-1000 flex justify-between items-center ${instrument_Sans.className}`}
         >
           <div className="flex items-center space-x-2 px-1">
             <svg
@@ -71,10 +71,10 @@ const ScrollNavBar = () => {
           </div>
           <ul className="flex text-sm space-x-3">
             <li className="hover:bg-HoverGray px-3 py-2 rounded-md cursor-pointer transition duration-300">
-              Services
+            <a href="./#services">Services</a>
             </li>
             <li className="hover:bg-HoverGray px-3 py-2 rounded-md cursor-pointer transition duration-300">
-              Case
+            <a href="./#case">Case</a>
             </li>
             <li className="hover:bg-HoverGray px-3 py-2 rounded-md cursor-pointer transition duration-300">
               Who we are

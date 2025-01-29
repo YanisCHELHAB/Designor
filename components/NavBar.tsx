@@ -45,8 +45,8 @@ const NavBar = () => {
           <h5 className="font-bold text-lg">Designor</h5>
         </div>
         <ul className="flex text-sm space-x-3">
-          <li className="hover:bg-HoverGray px-3 py-2 rounded-md cursor-pointer transition duration-300">Services</li>
-          <li className="hover:bg-HoverGray px-3 py-2 rounded-md cursor-pointer transition duration-300">Case</li>
+          <li className="hover:bg-HoverGray px-3 py-2 rounded-md cursor-pointer transition duration-300"><a href="./#services">Services</a></li>
+          <li className="hover:bg-HoverGray px-3 py-2 rounded-md cursor-pointer transition duration-300"><a href="./#case">Case</a></li>
           <li className="hover:bg-HoverGray px-3 py-2 rounded-md cursor-pointer transition duration-300">Who we are</li>
           <li className="hover:bg-HoverGray px-3 py-2 rounded-md cursor-pointer transition duration-300">Pricing</li>
           <li className="hover:bg-HoverGray px-3 py-2 rounded-md cursor-pointer transition duration-300">Testimonials</li>
