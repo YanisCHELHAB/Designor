@@ -16,7 +16,7 @@ const instrument_Sans = Instrument_Sans({
 const WhoWeAre = () => {
   return (
     <section
-    
+    id="whoweare"	
     className={`mx-44 flex flex-col justify-center items-center py-24 border border-borderColor rounded-3xl bg-white ${instrument_Sans.className}`}
     >
       <div className="max-w-[640px] flex flex-col justify-center items-center">
@@ -70,7 +70,7 @@ const WhoWeAre = () => {
           </motion.div>
           <motion.div
             className="flex flex-col items-center"
-            initial={{ opacity: 0, y: 70 }}
+            initial={{ opacity: 0, y: 60 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, ease: "easeInOut"  }}
             
@@ -85,7 +85,7 @@ const WhoWeAre = () => {
           </motion.div>
           <motion.div
             className="flex flex-col items-center"
-            initial={{ opacity: 0, y: 80 }}
+            initial={{ opacity: 0, y: 60 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration:0.5, ease: "easeInOut"  }}
             
@@ -100,7 +100,7 @@ const WhoWeAre = () => {
           </motion.div>
           <motion.div
             className="flex flex-col items-center"
-            initial={{ opacity: 0, y: 90 }}
+            initial={{ opacity: 0, y: 60 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, ease: "easeInOut"  }}
            

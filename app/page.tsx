@@ -5,6 +5,8 @@ import ScrollNavBar from "@/components/ScrollNavBar";
 import ServicesSection from "@/components/ServicesSection";
 import WhoWeAre from "@/components/WhoWeAre/WhoWeAre";
 import Benefits from "@/components/WhoWeAre/Benefits";
+import Stickers from "@/components/WhoWeAre/Stickers";
+import Pricing from "@/components/Pricing";
 
 export default function Home() {
   return (
@@ -16,6 +18,8 @@ export default function Home() {
       <CaseSection/>
       <WhoWeAre/>
       <Benefits/>
+      <Stickers/>
+      <Pricing/>
     </>
   );
 }

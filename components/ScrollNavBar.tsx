@@ -77,13 +77,13 @@ const ScrollNavBar = () => {
             <a href="./#case">Case</a>
             </li>
             <li className="hover:bg-HoverGray px-3 py-2 rounded-md cursor-pointer transition duration-300">
-              Who we are
+            <a href="./#whoweare">Who we are</a>
             </li>
             <li className="hover:bg-HoverGray px-3 py-2 rounded-md cursor-pointer transition duration-300">
-              Pricing
+            <a href="./#pricing">Pricing</a>
             </li>
             <li className="hover:bg-HoverGray px-3 py-2 rounded-md cursor-pointer transition duration-300">
-              Testimonials
+            <a href="./#testimonials">Testimonials</a>
             </li>
           </ul>
           <Button className="bg-gray-800 text-white px-5" variant="default">

@@ -47,9 +47,9 @@ const NavBar = () => {
         <ul className="flex text-sm space-x-3">
           <li className="hover:bg-HoverGray px-3 py-2 rounded-md cursor-pointer transition duration-300"><a href="./#services">Services</a></li>
           <li className="hover:bg-HoverGray px-3 py-2 rounded-md cursor-pointer transition duration-300"><a href="./#case">Case</a></li>
-          <li className="hover:bg-HoverGray px-3 py-2 rounded-md cursor-pointer transition duration-300">Who we are</li>
-          <li className="hover:bg-HoverGray px-3 py-2 rounded-md cursor-pointer transition duration-300">Pricing</li>
-          <li className="hover:bg-HoverGray px-3 py-2 rounded-md cursor-pointer transition duration-300">Testimonials</li>
+          <li className="hover:bg-HoverGray px-3 py-2 rounded-md cursor-pointer transition duration-300"><a href="./#whoweare">Who we are</a></li>
+          <li className="hover:bg-HoverGray px-3 py-2 rounded-md cursor-pointer transition duration-300"><a href="./#pricing">Pricing</a></li>
+          <li className="hover:bg-HoverGray px-3 py-2 rounded-md cursor-pointer transition duration-300"><a href="./#testimonials">Testimonials</a></li>
         </ul>
         <Button className="bg-gray-800 text-white px-5" variant="default">Remix Template</Button>
       </nav>
