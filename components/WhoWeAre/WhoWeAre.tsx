@@ -27,7 +27,7 @@ const WhoWeAre = () => {
           transition={{ duration: 1.2 }}
           
         >
-          <p className="border border-borderColor rounded-xl w-fit text-white px-2.5 py-0.5 bg-purpButton text-sm">
+          <p className="border border-borderColor rounded-xl w-fit font-medium text-white px-2.5 py-0.5 bg-purpButton text-sm">
             Who We Are
           </p>
           <h1 className="text-4xl font-semibold my-4">Crafting Unique</h1>
