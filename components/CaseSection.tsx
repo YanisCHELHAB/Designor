@@ -1,4 +1,4 @@
-
+'use client'
 import { Instrument_Sans } from "next/font/google";
 import Image from "next/image";
 import pr1 from "@/public/Projects/6yDH80vZJ3yCGSfFdVgvjHB120s.avif";
