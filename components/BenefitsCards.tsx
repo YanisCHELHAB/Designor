@@ -18,7 +18,7 @@ const BenefitsCards = ({src ,title, description, style} : card) => {
         >
             <Image src={src} alt="check" height={34} width={34}  />
             <motion.div className="space-y-2 mt-12 "
-            initial={{ opacity: 0, y: 50 }}
+            initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.3 }}
             >
