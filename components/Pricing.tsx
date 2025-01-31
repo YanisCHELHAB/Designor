@@ -140,20 +140,20 @@ const Pricing = () => {
           <div className="flex justify-between items-center  space-x-4">
             <TabsCards
               src={sv2}
-              title="$22,000 /mo"
-              description="Flexible pricing with premium features, customizable plans, and dedicated support for agencies."
+              title="Personalized Notion board"
+              description="A customized Notion board designed to optimize your workflow and boost team productivity."
             />
 
             <TabsCards
               src={sv3}
-              title="$4,999 /mo"
-              description="Access essential tools for growth, including advanced analytics and client management features."
+              title="Regular updates"
+              description="Ongoing updates to ensure the latest features and improvements for your experience."
             />
 
             <TabsCards
               src={sv5}
-              title="$17,000 /mo"
-              description="Exclusive benefits like white-label solutions and performance reports designed for agencies."
+              title="Easy & secure payments"
+              description="Enjoy hassle-free, secure transactions with multiple payment options for your convenience."
             />
           </div>
         )}
@@ -197,7 +197,7 @@ const Pricing = () => {
               title="$17,000 /mo"
               description="Exclusive benefits like white-label solutions and performance reports designed for agencies."
               comment="Big savings!"
-              style="bg-[#0d0d17] text-white"
+              style="bg-black text-white"
             />
           </div>
         )}

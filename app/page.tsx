@@ -7,6 +7,8 @@ import WhoWeAre from "@/components/WhoWeAre/WhoWeAre";
 import Benefits from "@/components/WhoWeAre/Benefits";
 import Stickers from "@/components/WhoWeAre/Stickers";
 import Pricing from "@/components/Pricing";
+import Testimonials from "@/components/Testimonials";
+import Questions from "@/components/Questions";
 
 export default function Home() {
   return (
@@ -20,6 +22,8 @@ export default function Home() {
       <Benefits/>
       <Stickers/>
       <Pricing/>
+      <Testimonials/>
+      <Questions/>
     </>
   );
 }

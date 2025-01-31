@@ -15,7 +15,8 @@ const TabsCards = ({src ,title, description, comment, style} : card) => {
     <motion.div className={`bg-white flex flex-col justify-between p-5 rounded-2xl border border-borderColor ${style}`}
     initial={{ opacity: 0, y: 100 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.7 }}
+        transition={{ duration: 0.5 }}
+        
         >
             <div className='flex items-center justify-between'>
                 <Image src={src} alt="check" height={34} width={34}  />
@@ -24,6 +25,7 @@ const TabsCards = ({src ,title, description, comment, style} : card) => {
                   </p>}
             </div>
             <motion.div className="space-y-2 mt-6 "
+            
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.3 }}

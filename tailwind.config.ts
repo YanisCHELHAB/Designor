@@ -9,16 +9,18 @@ export default {
   ],
   theme: {
   	extend: {
-		
-		backgroundImage: {
-        'custom-bg': "url('/BG.png')",
-      },
+  		backgroundImage: {
+  			'custom-bg': 'url('/BG.png',
+  			',': ',',
+  			')': ',
+  			': ': '
+  		},
   		colors: {
-			HoverGray : `#f2f2f5`,
-			purpButton : '#735cf7',
-			bgColor : '#f7f7f7',
-			borderColor : '#dfdfe6',
-			purpHover : '#5D3AEA',
+  			HoverGray: '`#f2f2f5`',
+  			purpButton: '#735cf7',
+  			bgColor: '#f7f7f7',
+  			borderColor: '#dfdfe6',
+  			purpHover: '#5D3AEA',
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
@@ -64,6 +66,28 @@ export default {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
+  		},
+  		keyframes: {
+  			'accordion-down': {
+  				from: {
+  					height: '0'
+  				},
+  				to: {
+  					height: 'var(--radix-accordion-content-height)'
+  				}
+  			},
+  			'accordion-up': {
+  				from: {
+  					height: 'var(--radix-accordion-content-height)'
+  				},
+  				to: {
+  					height: '0'
+  				}
+  			}
+  		},
+  		animation: {
+  			'accordion-down': 'accordion-down 0.2s ease-out',
+  			'accordion-up': 'accordion-up 0.2s ease-out'
   		}
   	}
   },
