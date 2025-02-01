@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { Button } from "@/components/ui/button";
-import { Instrument_Sans } from "next/font/google";
+
 import check from "@/public/SVGs/checksvg.svg";
 import Image from "next/image";
 import sv1 from "@/public/SVGs/svgexport-23 (1).svg";
@@ -27,16 +27,12 @@ import { motion } from "motion/react";
 
 import TabsCards from "./TabsCards";
 
-const instrument_Sans = Instrument_Sans({
-  subsets: ["latin"],
-  weight: ["500", "600", "700"],
-});
 type Tabs = "saving" | "examples" | "inclusion";
 const Pricing = () => {
   const [tab, setTab] = React.useState<Tabs>("saving");
   return (
     <section
-      className={`mx-44 flex flex-col justify-center items-center py-24 ${instrument_Sans.className}`}
+      className={`mx-44 flex flex-col justify-center items-center py-24`}
       id="pricing"
     >
       <motion.div
@@ -197,7 +193,7 @@ const Pricing = () => {
               title="$17,000 /mo"
               description="Exclusive benefits like white-label solutions and performance reports designed for agencies."
               comment="Big savings!"
-              style="bg-[#000000] text-white"
+              style={{backgroundColor: "black", color : "white"}}
             />
           </div>
         )}

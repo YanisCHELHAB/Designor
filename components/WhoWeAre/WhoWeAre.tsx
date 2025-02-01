@@ -10,19 +10,15 @@ import icon2 from "@/public/avatars/Pm9TTOkN341IYtePLdPGmhG0E.svg";
 import icon3 from "@/public/avatars/lKaaStgbmdIe8TfrIkFlKzHazV0.svg";
 import icon4 from "@/public/avatars/ofIUD8MCjke7Xz8jkh29AWqajJo (1).svg";
 
-import { Instrument_Sans } from "next/font/google";
+
 import { motion } from "motion/react"; // Corrected import
 
-const instrument_Sans = Instrument_Sans({
-  subsets: ["latin"],
-  weight: ["500", "600", "700"],
-});
 
 const WhoWeAre = () => {
   return (
     <section
     id="whoweare"	
-    className={`mx-44 flex flex-col justify-center items-center py-24 border border-borderColor rounded-3xl bg-white ${instrument_Sans.className}`}
+    className={`mx-44 flex flex-col justify-center items-center py-24 border border-borderColor rounded-3xl bg-white `}
     >
       <div className="max-w-[640px] flex flex-col justify-center items-center">
         <motion.div

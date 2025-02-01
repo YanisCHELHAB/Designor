@@ -1,19 +1,14 @@
 'use client'
 import { motion } from 'motion/react'
-import { Instrument_Sans } from 'next/font/google';
+
 import React from 'react'
 import TestimonialsCards from './TestimonialsCards';
 import avatar1 from "@/public/avatars/BJytCbStiWSy9rxpQ0wU6I3SNiI.svg"
 
 
-const instrument_Sans = Instrument_Sans({
-  subsets: ["latin"],
-  weight: ["500", "600", "700"],
-});
 const Testimonials = () => {
   return (
-    <section className={`flex flex-col justify-center items-center py-24 overflow-hidden ${instrument_Sans.className}`}
-      id="testimonials">
+    <section className={`flex flex-col justify-center items-center py-24 overflow-hidden `} id="testimonials">
         <motion.div
         className="max-w-[640px] flex flex-col justify-center items-center mb-8"
         initial={{ opacity: 0, y: 100 }}

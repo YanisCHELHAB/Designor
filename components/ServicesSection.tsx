@@ -1,14 +1,11 @@
 import React from 'react'
-import { Instrument_Sans } from "next/font/google";
+
 import check from "@/public/SVGs/svgexport-10.svg"
 import Image from 'next/image';
-const instrument_Sans = Instrument_Sans({
-  subsets: ["latin"],
-  weight: ["400","500", "600", "700"],
-});
+
 const ServicesSection = () => {
   return (
-    <section className={`mx-44 flex flex-col justify-center items-center py-24 ${instrument_Sans.className}`} id="services">
+    <section className={`mx-44 flex flex-col justify-center items-center py-24 `} id="services">
       <p className='border border-borderColor rounded-xl px-2.5 py-0.5 font-medium  bg-white text-sm mb-4'>What We Offer</p>
       <h1 className='text-center text-4xl font-semibold max-w-[640px]'>Tailored solutions crafted to elevate your vision.</h1>
       <div className='grid grid-cols-4 w-full gap-4 mt-12'>

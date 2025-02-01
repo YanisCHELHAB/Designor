@@ -1,5 +1,5 @@
 "use client";
-import { Instrument_Sans } from "next/font/google";
+
 import React from "react";
 import { motion } from "motion/react";
 import svg1 from "@/public/SVGs/svgexport-11.svg";
@@ -12,14 +12,10 @@ import svg7 from "@/public/SVGs/svgexport-17.svg";
 import svg8 from "@/public/SVGs/svgexport-18.svg";
 import BenefitsCards from "../BenefitsCards";
 
-const instrument_Sans = Instrument_Sans({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-});
 const Benefits = () => {
   return (
     <section
-      className={`py-24 mx-44 flex flex-col justify-center items-center ${instrument_Sans.className}`}
+      className={`py-24 mx-44 flex flex-col justify-center items-center`}
     >
       <motion.div className="max-w-[640px] flex flex-col justify-center items-center mb-12"
       initial={{ opacity: 0, y: 100 }}

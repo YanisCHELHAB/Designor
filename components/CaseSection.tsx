@@ -1,5 +1,4 @@
 'use client'
-import { Instrument_Sans } from "next/font/google";
 import Image from "next/image";
 import pr1 from "@/public/Projects/6yDH80vZJ3yCGSfFdVgvjHB120s.avif";
 import pr2 from "@/public/Projects/C0HEg5fVoN04iUYLyUvsbms6XRc.avif";
@@ -11,14 +10,11 @@ import pr7 from "@/public/Projects/qZmB9LNjrvvbwbHJ75K4DB8CBd0.avif";
 import pr8 from "@/public/Projects/uhc7ow2bA5UN8RdLh9COGJz54k.avif";
 import { motion } from "motion/react";
 
-const instrument_Sans = Instrument_Sans({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-});
+
 const CaseSection = () => {
   return (
     <section
-      className={`py-24 flex flex-col justify-center items-center overflow-hidden ${instrument_Sans.className}`}
+      className={`py-24 flex flex-col justify-center items-center overflow-hidden `}
       id="case"
     >
       <motion.div

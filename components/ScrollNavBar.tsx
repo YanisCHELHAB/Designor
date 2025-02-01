@@ -1,14 +1,9 @@
 "use client";
 import React from "react";
 import { Button } from "./ui/button";
-import { Instrument_Sans } from "next/font/google";
+
 import { useEffect, useState } from "react";
 import { motion } from "motion/react";
-
-const instrument_Sans = Instrument_Sans({
-  subsets: ["latin"],
-  weight: ["500", "600", "700"],
-});
 
 const ScrollNavBar = () => {
   const [scrolling, setScrolling] = useState(false);
@@ -35,7 +30,7 @@ const ScrollNavBar = () => {
           initial={{ y: -50, x: "-50%", opacity: 0 }} // Set the initial position (centered horizontally)
           animate={{ y: 20, x: "-50%", opacity: 1 }} // Animate while maintaining horizontal centering
           transition={{ duration: 0.1 }}
-          className={`fixed top-4 left-1/2 bg-white z-50 w-[800px] px-2 rounded-2xl border border-gray-400 py-2 shadow-md transition duration-1000 flex justify-between items-center ${instrument_Sans.className}`}
+          className={`fixed top-4 left-1/2 bg-white z-50 w-[800px] px-2 rounded-2xl border border-gray-400 py-2 shadow-md transition duration-1000 flex justify-between items-center `}
         >
           <div className="flex items-center space-x-2 px-1">
             <svg
@@ -69,7 +64,7 @@ const ScrollNavBar = () => {
             </svg>
             <h5 className="font-semibold text-lg">Designor</h5>
           </div>
-          <ul className="flex text-sm space-x-3">
+          <ul className="flex text-sm space-x-3 font-medium">
             <li className="hover:bg-HoverGray px-3 py-2 rounded-md cursor-pointer transition duration-300">
             <a href="./#services">Services</a>
             </li>

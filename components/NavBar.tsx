@@ -1,16 +1,13 @@
 
 import React from 'react'
 import { Button } from './ui/button'
-import { Instrument_Sans } from "next/font/google";
 
 
-const instrument_Sans = Instrument_Sans({
-    subsets: ["latin"],
-    weight: ["500","700"],
-  });
+
+
 const NavBar = () => {
   return (
-    <nav className={`py-7 px-52 flex justify-between items-center ${instrument_Sans.className}`}>
+    <nav className={`py-7 px-52 flex justify-between items-center`}>
         <div className="flex items-center space-x-2">
           <svg
             viewBox="0 0 24 25"
@@ -42,9 +39,9 @@ const NavBar = () => {
               </linearGradient>
             </defs>
           </svg>
-          <h5 className="font-bold text-lg">Designor</h5>
+          <h5 className="font-semibold text-lg">Designor</h5>
         </div>
-        <ul className="flex text-sm space-x-3">
+        <ul className="flex text-sm space-x-3 font-medium">
           <li className="hover:bg-HoverGray px-3 py-2 rounded-md cursor-pointer transition duration-300"><a href="./#services">Services</a></li>
           <li className="hover:bg-HoverGray px-3 py-2 rounded-md cursor-pointer transition duration-300"><a href="./#case">Case</a></li>
           <li className="hover:bg-HoverGray px-3 py-2 rounded-md cursor-pointer transition duration-300"><a href="./#whoweare">Who we are</a></li>

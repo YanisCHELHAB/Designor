@@ -2,6 +2,8 @@ import React from 'react'
 
 import Image from "next/image";
 import im1 from "@/public/9xw5hPNiCbd1wD50zh0sdg4ddc.avif";
+import im2 from "@/public/Mb4prylaxDajURFOhVxEDmKPI.avif"
+import im3 from "@/public/Pdvqn3uQo5NYDpUSNna1htYH4.avif"
 
 
 import comp1 from "@/public/companies/svgexport-2.svg";
@@ -14,15 +16,11 @@ import comp7 from "@/public/companies/svgexport-8.svg";
 import comp8 from "@/public/companies/svgexport-9.svg";
 
 import { Button } from "@/components/ui/button";
-import { Instrument_Sans } from "next/font/google";
-const instrument_Sans = Instrument_Sans({
-  subsets: ["latin"],
-  weight: ["500", "600", "700"],
-});
+
 const HeroSection = () => {
   return (
     <section
-        className={`mx-44 border border-borderColor bg-white rounded-3xl ${instrument_Sans.className} `}
+        className={`mx-44 border border-borderColor bg-white rounded-3xl `}
       >
         <div className="flex flex-col justify-center items-center  my-20 mx-14 ">
           <div className=" rounded-full flex items-center border border-gray-300 w-fit text-sm px-1  ">
@@ -36,7 +34,7 @@ const HeroSection = () => {
                 alt="Image 1"
                 className=" w-4 h-4 rounded-full object-cover"
               />
-              {/* <Image
+              <Image
                 src={im2}
                 alt="Image 1"
                 className="w-4 h-4 ml-[-4px] rounded-full object-cover"
@@ -45,7 +43,7 @@ const HeroSection = () => {
                 src={im3}
                 alt="Image 1"
                 className="w-4 h-4 ml-[-4px] rounded-full object-cover "
-              /> */}
+              />
             </div>
           </div>
           <h1 className="text-6xl font-semibold text-center my-5 leading-tight">
@@ -61,7 +59,7 @@ const HeroSection = () => {
           <div className="flex justify-between space-x-3">
             <Button
               variant={"outline"}
-              className="mt-10 text-base px-6 hover:bg-white hover:border-gray-400 py-5"
+              className="mt-10 text-base px-6 border-borderColor hover:bg-white hover:border-gray-400 py-5"
             >
               Our work
             </Button>

@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "motion/react";
-import { Instrument_Sans } from "next/font/google";
+
 import React from "react";
 import StickersCards from "../StickersCards";
 import sticker1 from "@/public/SVGs/svgexport-19.svg";
@@ -10,14 +10,11 @@ import sticker4 from "@/public/SVGs/svgexport-22.svg";
 import sticker5 from "@/public/SVGs/svgexport-23.svg";
 import sticker6 from "@/public/SVGs/svgexport-24.svg";
 
-const instrument_Sans = Instrument_Sans({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-});
+
 const Stickers = () => {
   return (
     <section
-      className={`py-24 mx-44 flex flex-col justify-center items-center ${instrument_Sans.className}`}
+      className={`py-24 mx-44 flex flex-col justify-center items-center `}
       id="stickers"
     >
       <motion.div

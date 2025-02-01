@@ -10,7 +10,7 @@ export default {
   theme: {
   	extend: {
   		backgroundImage: {
-  			'custom-bg': 'url(@/public/images/bg.jpg)'	,
+  			'custom-bg': 'url(@/public/images/bg.jpg)'
   		},
   		colors: {
   			HoverGray: '`#f2f2f5`',

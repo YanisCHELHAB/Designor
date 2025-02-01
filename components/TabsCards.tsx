@@ -8,11 +8,12 @@ type card = {
     title : string
     description : string
     comment? : string;
-    style? : string
+    style? : React.CSSProperties
 }
 const TabsCards = ({src ,title, description, comment, style} : card) => {
   return (
-    <motion.div className={`bg-white flex flex-col justify-between p-5 rounded-2xl border border-borderColor ${style}`}
+    <motion.div className={`bg-white flex flex-col justify-between p-5 rounded-2xl border border-borderColor`}
+    style={style}
     
     initial={{ opacity: 0, y: 100 }}
         whileInView={{ opacity: 1, y: 0 }}
