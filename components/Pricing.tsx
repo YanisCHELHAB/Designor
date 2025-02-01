@@ -106,7 +106,7 @@ const Pricing = () => {
         </Card>
       </motion.div>
       <div className="mt-16 flex flex-col justify-center items-center">
-        <div className="bg-HoverGray w-fit space-x-3 rounded-full px-1 py-2.5 text-sm font-medium mb-8">
+        <div className="bg-[#f2f2f5] w-fit space-x-3 rounded-full px-1 py-2.5 text-sm font-medium mb-8">
           <span
             className={`px-4 py-2 rounded-full cursor-pointer  ${
               tab === "saving" && "bg-white border border-borderColor"

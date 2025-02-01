@@ -32,7 +32,7 @@ const ScrollNavBar = () => {
           transition={{ duration: 0.1 }}
           className={`fixed top-4 left-1/2 bg-white z-50 w-[800px] px-2 rounded-2xl border border-gray-400 py-2 shadow-md transition duration-1000 flex justify-between items-center `}
         >
-          <div className="flex items-center space-x-2 px-1">
+          <div className="flex items-center space-x-2 px-1" >
             <svg
               viewBox="0 0 24 25"
               xmlns="http://www.w3.org/1999/xlink"
@@ -65,23 +65,23 @@ const ScrollNavBar = () => {
             <h5 className="font-semibold text-lg">Designor</h5>
           </div>
           <ul className="flex text-sm space-x-3 font-medium">
-            <li className="hover:bg-HoverGray px-3 py-2 rounded-md cursor-pointer transition duration-300">
+            <li className="hover:bg-[#f2f2f5] px-3 py-2 rounded-md cursor-pointer transition duration-300">
             <a href="./#services">Services</a>
             </li>
-            <li className="hover:bg-HoverGray px-3 py-2 rounded-md cursor-pointer transition duration-300">
+            <li className="hover:bg-[#f2f2f5] px-3 py-2 rounded-md cursor-pointer transition duration-300">
             <a href="./#case">Case</a>
             </li>
-            <li className="hover:bg-HoverGray px-3 py-2 rounded-md cursor-pointer transition duration-300">
+            <li className="hover:bg-[#f2f2f5] px-3 py-2 rounded-md cursor-pointer transition duration-300">
             <a href="./#whoweare">Who we are</a>
             </li>
-            <li className="hover:bg-HoverGray px-3 py-2 rounded-md cursor-pointer transition duration-300">
+            <li className="hover:bg-[#f2f2f5] px-3 py-2 rounded-md cursor-pointer transition duration-300">
             <a href="./#pricing">Pricing</a>
             </li>
-            <li className="hover:bg-HoverGray px-3 py-2 rounded-md cursor-pointer transition duration-300">
+            <li className="hover:bg-[#f2f2f5] px-3 py-2 rounded-md cursor-pointer transition duration-300">
             <a href="./#testimonials">Testimonials</a>
             </li>
           </ul>
-          <Button className="bg-gray-800 text-white px-5" variant="default">
+          <Button className="bg-gray-800 text-white px-5 hover:bg-gray-900" variant="default">
             Remix Template
           </Button>
         </motion.nav>

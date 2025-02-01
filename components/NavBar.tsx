@@ -42,13 +42,13 @@ const NavBar = () => {
           <h5 className="font-semibold text-lg">Designor</h5>
         </div>
         <ul className="flex text-sm space-x-3 font-medium">
-          <li className="hover:bg-HoverGray px-3 py-2 rounded-md cursor-pointer transition duration-300"><a href="./#services">Services</a></li>
-          <li className="hover:bg-HoverGray px-3 py-2 rounded-md cursor-pointer transition duration-300"><a href="./#case">Case</a></li>
-          <li className="hover:bg-HoverGray px-3 py-2 rounded-md cursor-pointer transition duration-300"><a href="./#whoweare">Who we are</a></li>
-          <li className="hover:bg-HoverGray px-3 py-2 rounded-md cursor-pointer transition duration-300"><a href="./#pricing">Pricing</a></li>
-          <li className="hover:bg-HoverGray px-3 py-2 rounded-md cursor-pointer transition duration-300"><a href="./#testimonials">Testimonials</a></li>
+          <li className="hover:bg-[#f2f2f5] px-3 py-2 rounded-md cursor-pointer transition duration-300"><a href="./#services">Services</a></li>
+          <li className="hover:bg-[#f2f2f5] px-3 py-2 rounded-md cursor-pointer transition duration-300"><a href="./#case">Case</a></li>
+          <li className="hover:bg-[#f2f2f5] px-3 py-2 rounded-md cursor-pointer transition duration-300"><a href="./#whoweare">Who we are</a></li>
+          <li className="hover:bg-[#f2f2f5] px-3 py-2 rounded-md cursor-pointer transition duration-300"><a href="./#pricing">Pricing</a></li>
+          <li className="hover:bg-[#f2f2f5] px-3 py-2 rounded-md cursor-pointer transition duration-300"><a href="./#testimonials">Testimonials</a></li>
         </ul>
-        <Button className="bg-gray-800 text-white px-5" variant="default">Remix Template</Button>
+        <Button className="bg-gray-800 text-white px-5 hover:bg-gray-900" variant="default">Remix Template</Button>
       </nav>
   )
 }

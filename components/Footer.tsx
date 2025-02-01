@@ -1,13 +1,18 @@
+"use client";
 import React from "react";
 import { Button } from "./ui/button";
 import { Calendar, Mail } from "lucide-react";
+import { motion } from "motion/react";
 
 const Footer = () => {
   return (
-    <section
-      className={`mx-44  `}
-    >
-      <div className="flex flex-col justify-center items-center border border-borderColor bg-white  rounded-3xl py-24">
+    <section className={`mx-44  `}>
+      <motion.div
+        className="flex flex-col justify-center items-center border border-borderColor bg-white  rounded-3xl py-24"
+        initial={{ opacity: 0, y: 100 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.7 }}
+      >
         <p className="border border-borderColor rounded-xl w-fit font-medium px-2.5 py-0.5 bg-white text-sm">
           Your design, elevated instantly
         </p>
@@ -35,10 +40,10 @@ const Footer = () => {
             Send an email
           </Button>
         </div>
-      </div>
+      </motion.div>
       <div className="flex justify-center items-center my-2 border border-borderColor bg-[#0d0d17]  rounded-3xl p-6">
         <p className="text-sm text-white">
-            © 2021 Designor. All rights reserved.
+          © 2021 Designor. All rights reserved.
         </p>
       </div>
     </section>

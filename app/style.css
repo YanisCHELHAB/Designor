@@ -40,14 +40,14 @@ html {
   }
 }
 .avatar {
-  animation: loopavatar 50s linear infinite;
+  animation: loopavatar 90s linear infinite;
 }
 
 .avatar:hover {
   animation-play-state: paused;
 }
 .avatar2 {
-  animation: loopavatar2 50s linear infinite;
+  animation: loopavatar2 90s linear infinite;
 }
 
 .avatar2:hover {
@@ -63,3 +63,25 @@ html {
     rgba(0, 0, 0, 0) 100%
   );
 }
+
+@keyframes slide {
+  0% { transform: translateX(0); }
+  8.33% { transform: translateX(0); }
+  16.66% { transform: translateX(-100%); }
+  25% { transform: translateX(-100%); }
+  33.33% { transform: translateX(-200%); }
+  41.66% { transform: translateX(-200%); }
+  50% { transform: translateX(-300%); }
+  58.33% { transform: translateX(-300%); }
+  66.66% { transform: translateX(-400%); }
+  75% { transform: translateX(-400%); }
+  83.33% { transform: translateX(-500%); }
+  91.66% { transform: translateX(-500%); }
+  100% { transform: translateX(0); }
+}
+.im {
+  display: flex;
+  width: 1300%;
+  animation: slide 130s infinite;;
+}
+

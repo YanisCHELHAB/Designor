@@ -1,9 +1,9 @@
 import React from "react";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 
 import X from "@/public/SVGs/twitter.png";
 type testimonial = {
-  src: string;
+  src: StaticImageData;
   description: string;
   username: string;
   id: string;
