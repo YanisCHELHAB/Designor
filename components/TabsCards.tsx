@@ -13,6 +13,7 @@ type card = {
 const TabsCards = ({src ,title, description, comment, style} : card) => {
   return (
     <motion.div className={`bg-white flex flex-col justify-between p-5 rounded-2xl border border-borderColor ${style}`}
+    
     initial={{ opacity: 0, y: 100 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}

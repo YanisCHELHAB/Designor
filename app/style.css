@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+@layer base {
+  :root {
+    --radius: 0.5rem;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@keyframes loop {
+  to {
+    transform: translateX(-100%);
+  }
+}
+.circular {
+  animation: loop 15s linear infinite;
+}
+@keyframes loopavatar {
+  to {
+    transform: translateX(calc(-50% - 0.5rem));
+  }
+}
+@keyframes loopavatar2 {
+  to {
+    transform: translateX(calc(50% + 0.5rem));
+  }
+}
+.avatar {
+  animation: loopavatar 50s linear infinite;
+}
+
+.avatar:hover {
+  animation-play-state: paused;
+}
+.avatar2 {
+  animation: loopavatar2 50s linear infinite;
+}
+
+.avatar2:hover {
+  animation-play-state: paused;
+}
+
+.container {
+  mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0) 0%,
+    rgb(0, 0, 0) 12.5%,
+    rgb(0, 0, 0) 87.5%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}

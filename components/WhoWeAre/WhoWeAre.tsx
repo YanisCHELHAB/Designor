@@ -1,10 +1,15 @@
 'use client'
 import React from "react";
 import Image from "next/image";
-import icon1 from "@/public/UsersIcons/BJytCbStiWSy9rxpQ0wU6I3SNiI.png";
-import icon2 from "@/public/UsersIcons/ikD34vgzaLM6N50MKdcR9HVBnk.png";
-import icon3 from "@/public/UsersIcons/ofIUD8MCjke7Xz8jkh29AWqajJo.png";
-import icon4 from "@/public/UsersIcons/qCpU7HJtiveCC9wTFuh7L4wc8YM.png";
+// import icon1 from "@/public/UsersIcons/ikD34vgzaLM6N50MKdcR9HVBnk.png";
+// import icon2 from "@/public/UsersIcons/ikD34vgzaLM6N50MKdcR9HVBnk.png";
+// import icon3 from "@/public/UsersIcons/ofIUD8MCjke7Xz8jkh29AWqajJo.png";
+// import icon4 from "@/public/UsersIcons/qCpU7HJtiveCC9wTFuh7L4wc8YM.png";
+import icon1 from "@/public/avatars/ikD34vgzaLM6N50MKdcR9HVBnk.svg";
+import icon2 from "@/public/avatars/Pm9TTOkN341IYtePLdPGmhG0E.svg";
+import icon3 from "@/public/avatars/lKaaStgbmdIe8TfrIkFlKzHazV0.svg";
+import icon4 from "@/public/avatars/ofIUD8MCjke7Xz8jkh29AWqajJo (1).svg";
+
 import { Instrument_Sans } from "next/font/google";
 import { motion } from "motion/react"; // Corrected import
 

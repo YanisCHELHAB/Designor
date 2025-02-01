@@ -1,8 +1,9 @@
 import React from 'react'
-import im1 from "@/public/9xw5hPNiCbd1wD50zh0sdg4ddc.avif";
+
 import Image from "next/image";
-import im2 from "@/public/Mb4prylaxDajURFOhVxEDmKPI.avif";
-import im3 from "@/public/Pdvqn3uQo5NYDpUSNna1htYH4.avif";
+import im1 from "@/public/9xw5hPNiCbd1wD50zh0sdg4ddc.avif";
+
+
 import comp1 from "@/public/companies/svgexport-2.svg";
 import comp2 from "@/public/companies/svgexport-3.svg";
 import comp3 from "@/public/companies/svgexport-4.svg";
@@ -35,7 +36,7 @@ const HeroSection = () => {
                 alt="Image 1"
                 className=" w-4 h-4 rounded-full object-cover"
               />
-              <Image
+              {/* <Image
                 src={im2}
                 alt="Image 1"
                 className="w-4 h-4 ml-[-4px] rounded-full object-cover"
@@ -44,7 +45,7 @@ const HeroSection = () => {
                 src={im3}
                 alt="Image 1"
                 className="w-4 h-4 ml-[-4px] rounded-full object-cover "
-              />
+              /> */}
             </div>
           </div>
           <h1 className="text-6xl font-semibold text-center my-5 leading-tight">

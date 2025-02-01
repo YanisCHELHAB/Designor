@@ -60,7 +60,7 @@ const Pricing = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7 }}
       >
-        <Card className="max-w-[350px]">
+        <Card className="max-w-[350px] bg-white">
           <CardHeader>
             <p className="rounded-xl w-fit font-medium px-2.5 py-0.5 bg-HoverGray text-sm">
               Starting at
@@ -102,7 +102,7 @@ const Pricing = () => {
           <CardFooter>
             <Button
               variant={"default"}
-              className="bg-purpButton hover:bg-purpHover size-full py-2.5 px-4 text-base"
+              className="bg-purpButton text-white hover:bg-purpHover size-full py-2.5 px-4 text-base"
             >
               Schedule a call
             </Button>
@@ -197,7 +197,7 @@ const Pricing = () => {
               title="$17,000 /mo"
               description="Exclusive benefits like white-label solutions and performance reports designed for agencies."
               comment="Big savings!"
-              style="bg-black text-white"
+              style="bg-[#000000] text-white"
             />
           </div>
         )}
