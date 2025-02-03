@@ -14,7 +14,7 @@ type testimonial = {
 const TestimonialsCards = ({ src, description, username, id, color }: testimonial) => {
   return (
     <div
-      className={`bg-white flex flex-col justify-between p-5 rounded-2xl border border-borderColor  w-[400px] group `}
+      className={`bg-white flex flex-col justify-between p-5 rounded-2xl border border-borderColor  w-[350px] group `}
     >
       <p className="text-base text-[#272730] ">{description}</p>
       <div className="flex items-center mt-6 ">

@@ -10,11 +10,10 @@ import sticker4 from "@/public/SVGs/svgexport-22.svg";
 import sticker5 from "@/public/SVGs/svgexport-23.svg";
 import sticker6 from "@/public/SVGs/svgexport-24.svg";
 
-
 const Stickers = () => {
   return (
     <section
-      className={`py-24 mx-44 flex flex-col justify-center items-center `}
+      className={`py-24 mx-44 max-xl:mx-2 flex flex-col justify-center items-center `}
       id="stickers"
     >
       <motion.div
@@ -26,12 +25,12 @@ const Stickers = () => {
         <p className="border border-borderColor rounded-xl w-fit font-medium px-2.5 py-0.5 bg-white text-sm">
           Navigating Success Together
         </p>
-        <h1 className="text-4xl font-semibold my-4 text-center">
+        <h1 className="text-4xl max-lg:text-3xl font-semibold my-4 text-center">
           We lead you through every step
         </h1>
-        <p className="text-light text-center text-gray-500 mb-12">
+        <p className="text-light text-center max-md:text-sm text-gray-500 mb-12">
           From creative design to technical solutions, our services define
-          <br /> industry excellence
+          industry excellence
         </p>
       </motion.div>
       <div className="flex flex-col items-center gap-7">
@@ -77,8 +76,6 @@ const Stickers = () => {
           color="feebd5"
           rotation={-2}
         />
-        
-        
       </div>
     </section>
   );

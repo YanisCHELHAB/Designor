@@ -7,7 +7,7 @@ import { Button } from './ui/button'
 
 const NavBar = () => {
   return (
-    <nav className={`py-7 px-52 flex justify-between items-center`}>
+    <nav className={`py-7 px-52 max-sm:px-4 flex justify-between items-center`}>
         <div className="flex items-center space-x-2">
           <svg
             viewBox="0 0 24 25"

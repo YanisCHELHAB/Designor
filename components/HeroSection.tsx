@@ -20,60 +20,60 @@ import { Button } from "@/components/ui/button";
 const HeroSection = () => {
   return (
     <section
-        className={`mx-44 border border-borderColor bg-white rounded-3xl `}
+        className={`mx-44 max-xl:mx-2 border border-borderColor bg-white rounded-3xl `}
       >
-        <div className="flex flex-col justify-center items-center  my-20 mx-14 ">
-          <div className=" rounded-full flex items-center border border-gray-300 w-fit text-sm px-1  ">
-            <span className="text-sm bg-gradient-to-r from-orange-400 to-purple-900 bg-clip-text text-transparent">
+        <div className="flex flex-col justify-center items-center my-20">
+          <div className="flex items-center border-gray-300 px-1 py-0.5 border rounded-full w-fit text-sm max-md:text-xs">
+            <span className="bg-clip-text bg-gradient-to-r from-orange-400 to-purple-900 text-sm text-transparent max-md:text-xs">
               4000+ &nbsp;
             </span>
             <p>Users trust us for design &nbsp;</p>
-            <div className="flex ">
+            <div className="flex">
               <Image
                 src={im1}
                 alt="Image 1"
-                className=" w-4 h-4 rounded-full object-cover"
+                className="rounded-full w-4 h-4 object-cover"
               />
               <Image
                 src={im2}
                 alt="Image 1"
-                className="w-4 h-4 ml-[-4px] rounded-full object-cover"
+                className="ml-[-4px] rounded-full w-4 h-4 object-cover"
               />
               <Image
                 src={im3}
                 alt="Image 1"
-                className="w-4 h-4 ml-[-4px] rounded-full object-cover "
+                className="ml-[-4px] rounded-full w-4 h-4 object-cover"
               />
             </div>
           </div>
-          <h1 className="text-6xl font-semibold text-center my-5 leading-tight">
+          <h1 className="my-5 font-semibold text-6xl text-center leading-tight">
             Design Better,{" "}
             <span className="text-gray-400">
               Faster, <br /> Smarter
             </span>
           </h1>
-          <p className="max-w-[500px] text-center text-lg font-light text-gray-600">
+          <p className="max-w-[500px] max-sm:max-w-[300px] font-light text-center text-gray-600 text-lg max-sm:text-base">
             Empower your creative vision with Designor — crafted for agencies,
             designers, and innovators to showcase their work seamlessly.
           </p>
-          <div className="flex justify-between space-x-3">
+          <div className="flex max-sm:flex-col justify-between sm:space-x-3 max-sm:space-y-3 max-sm:w-[90%]">
             <Button
               variant={"outline"}
-              className="mt-10 text-base px-6 border-borderColor hover:bg-white hover:border-gray-400 py-5"
+              className="hover:border-gray-400 hover:bg-white mt-10 px-6 py-5 border-borderColor text-base"
             >
               Our work
             </Button>
             <Button
               variant={"secondary"}
-              className="mt-10 border border-purpHover text-base px-6 py-5 text-white bg-purpButton hover:bg-purpHover "
+              className="border-purpHover bg-purpButton hover:bg-purpHover mt-10 px-6 py-5 border text-base text-white"
             >
               Schedule a call
             </Button>
           </div>
-          <p className="mt-20 mb-8 text-gray-600">
+          <p className="mt-20 mb-8 max-sm:font-medium text-gray-600">
             Featured highlights of our Work
           </p>
-          <div className="overflow-hidden whitespace-nowrap flex  container">
+          <div className="flex whitespace-nowrap overflow-hidden container">
             {/* One container with all images, duplicated virtually */}
             <div className="flex items-center gap-16 circular">
               <Image src={comp1} alt="user1" width={120} height={120} />

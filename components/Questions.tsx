@@ -5,7 +5,7 @@ import QuestionsCards from "./QuestionsCards";
 const Questions = () => {
   return (
     <section
-      className={`mx-44 flex flex-col justify-center items-center py-24 `}
+      className={`mx-44 max-xl:mx-2 flex flex-col justify-center items-center py-24 `}
     >
       <motion.div
         className="text-center max-w-[640px]"
@@ -13,8 +13,10 @@ const Questions = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7 }}
       >
-        <h1 className="text-4xl font-semibold">Still have questions?</h1>
-        <p className="text-light text-gray-500 pt-4 pb-12 text-center">
+        <h1 className="text-4xl max-lg:text-3xl font-semibold">
+          Still have questions?
+        </h1>
+        <p className="text-light max-md:text-sm text-gray-500 pt-4 pb-12 text-center">
           Still have questions? Find quick answers to commonly asked questions
           about Designor. Have a question not listed?
         </p>

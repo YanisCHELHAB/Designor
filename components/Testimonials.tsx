@@ -29,10 +29,10 @@ const Testimonials = () => {
         <p className="border border-borderColor rounded-xl w-fit font-medium px-2.5 py-0.5 bg-white text-sm">
           Testimonials
         </p>
-        <h1 className="text-4xl font-semibold my-4 text-center">
+        <h1 className="text-4xl max-lg:text-3xl font-semibold my-4 text-center">
           Worldwide customers
         </h1>
-        <p className="text-light text-center text-gray-500 mb-12">
+        <p className="text-light text-center text-gray-500 max-md:text-sm mb-12">
           Designor empowers global teams with seamless integration and
           time-saving capabilities. Discover user success!
         </p>

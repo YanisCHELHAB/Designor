@@ -25,7 +25,7 @@ const projects = [pr1,pr2,pr3,pr4,pr5,pr6,pr7,pr8,pr9,pr10,pr11,pr12,pr13]
 const CaseSection = () => {
   return (
     <section
-      className={`py-24 flex flex-col justify-center items-center overflow-hidden `}
+      className={`py-24 max-md:py-12 flex flex-col justify-center items-center overflow-hidden `}
       id="case"
     >
       <motion.div
@@ -35,62 +35,14 @@ const CaseSection = () => {
         transition={{ duration: 0.7 }}
         viewport={{ once: false }}
       >
-        <h1 className="text-4xl font-semibold">
+        <h1 className="text-4xl max-lg:text-3xl font-semibold">
           Showcasing our most remarkable creations
         </h1>
-        <p className="text-light text-gray-500 pt-4 pb-12">
-          A showcase of projects that embody creativity, innovation, and <br />
+        <p className="text-light text-gray-500 max-md:text-sm pt-4 pb-12 m-auto">
+          A showcase of projects that embody creativity, innovation, and
           precision.
         </p>
       </motion.div>
-      {/* <motion.div
-        className="flex gap-4  caroussel"
-        initial={{ opacity: 0, y: 70 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.7 }}
-        viewport={{ once: false }}
-      >
-        <Image
-          src={pr1}
-          alt="project"
-          className="h-[400px]  w-[420px] im rounded-2xl"
-        />
-        <Image
-          src={pr2}
-          alt="project"
-          className="h-[400px]  w-[420px] im rounded-2xl"
-        />
-        <Image
-          src={pr3}
-          alt="project"
-          className="h-[400px]  w-[420px] im rounded-2xl"
-        />
-        <Image
-          src={pr4}
-          alt="project"
-          className="h-[400px]  w-[420px] im rounded-2xl"
-        />
-        <Image
-          src={pr5}
-          alt="project"
-          className="h-[400px]  w-[420px] im rounded-2xl"
-        />
-        <Image
-          src={pr6}
-          alt="project"
-          className="h-[400px]  w-[420px] im rounded-2xl"
-        />
-        <Image
-          src={pr7}
-          alt="project"
-          className="h-[400px]  w-[420px] im rounded-2xl"
-        />
-        <Image
-          src={pr8}
-          alt="project"
-          className="h-[400px]  w-[420px] im rounded-2xl"
-        />
-      </motion.div> */}
 
       <Carousel className="w-full ">
         <CarouselContent className="-ml-1 ">

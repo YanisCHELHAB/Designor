@@ -11,7 +11,7 @@ type stickers = {
 
 const StickersCards = ({ src, title, description, color, rotation }: stickers) => {
     return (
-        <motion.div className={`flex gap-4 items-start max-w-[50%] p-8 sticky top-52 `} style={{backgroundColor: `#${color}`}}
+        <motion.div className={`flex gap-4 items-start lg:max-w-[50%] max-md:max-w-[90%] max-md:text-sm max-lg:max-w-[70%] p-8 sticky top-52 max-md:top-32`} style={{backgroundColor: `#${color}`}}
         initial={{  y: 50, scale :0.8}}
         whileInView={{  y: 0 , scale: 1, rotateZ: rotation }}
         transition={{ duration: 0.5 }}
