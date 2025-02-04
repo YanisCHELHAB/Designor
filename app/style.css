@@ -85,3 +85,6 @@ html {
   animation: slide 130s infinite;;
 }
 
+.no-scroll {
+  overflow: hidden;
+}
