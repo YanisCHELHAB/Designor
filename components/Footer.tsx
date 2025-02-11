@@ -43,7 +43,7 @@ const Footer = () => {
       </motion.div>
       <div className="flex justify-center items-center bg-[#0d0d17] my-2 p-6 border border-borderColor rounded-3xl">
         <p className="text-sm text-white max-md:text-sm">
-          © 2021 Designor. All rights reserved.
+          © 2025 Coded by Yanis, template from Designor.
         </p>
       </div>
     </section>

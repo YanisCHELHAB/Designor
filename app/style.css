@@ -23,12 +23,13 @@ html {
 
 @keyframes loop {
   to {
-    transform: translateX(-100%);
+    transform: translateX(calc(-50% - 2rem));
   }
 }
 .circular {
-  animation: loop 15s linear infinite;
+  animation: loop 10s linear infinite;
 }
+
 @keyframes loopavatar {
   to {
     transform: translateX(calc(-50% - 0.5rem));
